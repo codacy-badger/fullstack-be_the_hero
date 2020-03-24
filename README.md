@@ -23,7 +23,7 @@ The following technologies was used in the project:
 You can see all the libs and frameworks used in the README of each part.
 
 # :computer: Project
-This project was developed during the [Rocketseat's Omnistack Week 11](https://rocketseat.com.br/). Despite that, I've made some changes and added some features on my own.
+This project was developed during the [Rocketseat's Omnistack Week 11](https://rocketseat.com.br/). Despite that, I've made some changes and added some features on my own. The main purpose of the project is to be an app where some NGO can register themselves and ask for donations to solve some incident, and the people can get in touch with the NGO and donate.
 
 You can take a look on my [Notion Book](https://www.notion.so/caiotracera/BeTheHero-4ccfd638c538466ab6b43a154503087b) to see everyhing about the project.
 
