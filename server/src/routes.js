@@ -10,13 +10,11 @@ import authMiddleware from './app/middlewares/auth';
 
 const routes = new Router();
 
-routes.post('/sessions', SessionController.create);
+// routes.post('/sessions', SessionController.create); -> Login para usuários que será utilizado no futuro.
 routes.post('/ongs/sessions', SessionController.create);
 
 routes.post('/users', UserController.store);
 routes.post('/ongs', OngController.store);
-
-routes.use(authMiddleware);
 
 routes.get('/ongs', OngController.index);
 

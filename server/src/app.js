@@ -20,11 +20,7 @@ class App {
     }
 
     cors() {
-        this.server.use(
-            cors({
-                origin: 'http://localhost/',
-            })
-        );
+        this.server.use(cors());
     }
 
     middlewares() {
