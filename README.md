@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./logo.png" alt="Be the Hero!">
+    <img src="./logo.svg" alt="Be the Hero!">
 </h1>
 
 <blockquote align="center">
