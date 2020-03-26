@@ -1,5 +1,8 @@
 import React from "react";
-import { createStackNavigator } from "@react-navigation/stack";
+import {
+    createStackNavigator,
+    TransitionPresets,
+} from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 
 import Incidents from "./pages/Incidents";
@@ -12,7 +15,11 @@ export default function Routes() {
         <NavigationContainer>
             <AppStack.Navigator screenOptions={{ headerShown: false }}>
                 <AppStack.Screen name="Incidents" component={Incidents} />
-                <AppStack.Screen name="Detail" component={Detail} />
+                <AppStack.Screen
+                    name="Detail"
+                    component={Detail}
+                    options={TransitionPresets.SlideFromRightIOS}
+                />
             </AppStack.Navigator>
         </NavigationContainer>
     );
