@@ -51,7 +51,7 @@ $ yarn dev
 **Obs.:** You'll need to have NodeJS installed and be able to create a Docker Container with Postgres.
 
 # :memo: License
-This project is under MIT License. Check the [LICENSE](LICENSE) for more details.
+This project is under MIT License. Check the [LICENSE](../LICENSE) for more details.
 
 ---
 
