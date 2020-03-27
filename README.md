@@ -19,6 +19,7 @@ The following technologies was used in the project:
 * ReactJS
 * React Native
 * Expo
+* Docker
 
 You can see all the libs and frameworks used in the README of each part.
 
