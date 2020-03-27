@@ -24,7 +24,7 @@ The idea of the project came from the Rocketseat's Omnistack Week 11, and it was
 
 You can check the [To do's](#) or my [Notion's Book](https://www.notion.so/caiotracera/BeTheHero-4ccfd638c538466ab6b43a154503087b) to see the roadmap.
 
-<img src="../images/mobile/app.gif" alt="app">
+<img src="../images/Mobile/app.gif" alt="app">
 
 # :pencil2: How to
 If you want to run only the backend, follow the step-by-step:
