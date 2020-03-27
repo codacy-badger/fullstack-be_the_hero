@@ -1,5 +1,5 @@
 import Sequelize, { Model } from 'sequelize';
-import { randomBytes } from 'crypto';
+import generateUniqueId from '../../utils/GenerateUniqueId';
 
 class Ong extends Model {
     static init(sequelize) {
@@ -15,7 +15,7 @@ class Ong extends Model {
         );
 
         this.addHook('beforeSave', async ong => {
-            ong.id = randomBytes(4).toString('HEX');
+            ong.id = generateUniqueId();
         });
 
         return this;
